@@ -1,0 +1,230 @@
+
+* {font-family: 'Comfortaa', cursive;
+}
+/* ШАПКАИ ВПЕРХНЕЕ МЕНЮ */
+header{
+    background: #281aa3;
+    height: 365px;
+    width: 1536px;
+}
+
+body {
+  background: #c9c7bd;
+}
+
+a.main-link {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+a.main-intro {
+  margin-bottom: 80px;
+
+    margin-left: 350px;
+    font-size: 2rem;
+}
+
+
+a.main-about {
+    margin-top: 10px;
+    margin-left:300px;
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+a.main-conta {
+    float: left;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+
+header ul li{
+  display:inline-block;
+
+}
+
+.main a{
+    text-decoration: none;
+    color: #e2e1e8;
+    padding: 5px 15px;
+    width: auto;
+}
+
+a.main-about  {
+ margin-right: 5px;
+
+}
+
+
+.main  a:hover {
+  background: #4325f7;
+  border-radius:  10px;
+
+}
+
+header img  {
+    height: 300px;
+    width: 1536px;
+}
+
+/* КАРКАС */
+
+
+div.sblock-title {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+div.imgPost img{
+  width: 800px;
+
+}
+
+/* ФУТЕР */
+.footer {
+    height: 125px;
+    background: #303036;
+    color: #d3d3d3;
+    position: relative;
+}
+div.contact {
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+div.socials {
+  float: right;
+  margin-right: 50px;
+    margin-top: 40px;
+}
+
+div.titleOut{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+
+/* ГЛАВНАЯ СТРАНИЦА КНОПКИ ФУНКЦИОНАЛА и вывод логина пользователя */
+form.button-reg {
+  margin-top: 50px;
+}
+
+  form.button-out {
+    margin-top: 50px;
+  }
+
+div.button-place form {
+  margin-left: 50px;
+  padding-top: 10px;
+}
+div.namePlace {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+
+/* ПОСТЫ */
+
+div.MiddleTitle h2 {
+ margin-left: 350px;
+ margin-top: 50px;
+
+
+}
+
+div.titlePost h2 {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+div.imgPost img {
+  height: 350px;
+  /* width: auto; */
+}
+
+
+
+/* ФОРМА ДОБАВЛЕНИЯ СТАТЬИ */
+div.Post_A h2 {
+  margin-left: 500px;
+  margin-top: 50px;
+}
+div.Soder label {
+  margin-left: 350px;
+  padding: 25px;
+}
+div.Zag label {
+  margin-left: 250px;
+  padding: 15px;
+}
+
+div.but-post button {
+  margin-left: 150px;
+}
+
+/* ФОРМА РЕГИСТРАЦИИ */
+
+div.TitFormReg h2 {
+ margin-left: 480px;
+ margin-top: 25px;
+}
+
+div.log label {
+  margin-left:170px;
+  padding: 10px;
+}
+
+div.pas label {
+  margin-left:170px;
+  padding: 10px;
+}
+
+div.mail label {
+  margin-left:170px;
+  padding: 10px;
+}
+div.but_reg button {
+  margin-left: 140px;
+}
+
+
+/* ФОРМА ВХОДА */
+
+div.ComeTitle h2 {
+  margin-left: 550px;
+  margin-top: 25px;
+}
+
+div.logg label {
+  margin-left:170px;
+  padding: 10px;
+}
+
+div.Pass label {
+  margin-left:170px;
+  padding: 10px;
+}
+
+div.but_come button {
+  margin-left: 170px;
+}
+
+/* БОКОВОЙ СПИСОК ССЫЛОК */
+div.list-group {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+
+
+/* ПАГИНАЦИЯ  */
+
+
+ul.pagination a {
+  text-decoration:  none;
+
+}
